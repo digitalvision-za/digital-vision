@@ -47,7 +47,7 @@ export const defaultPricing: PricingItem[] = [
     title: "Launch page",
     description:
       "A focused, high-conviction page for a new offer, campaign, or small business that needs a credible place to send people.",
-    startingPrice: 14900,
+    startingPrice: 7900,
     currency: "ZAR",
     qualifier: "From",
     isVisible: true,
@@ -57,8 +57,8 @@ export const defaultPricing: PricingItem[] = [
     id: "business-website",
     title: "Business website",
     description:
-      "A considered multi-page website for an established service business ready to turn more visits into useful enquiries.",
-    startingPrice: 29900,
+      "A considered multi-page website for a growing service business ready to turn more visits into useful enquiries.",
+    startingPrice: 16900,
     currency: "ZAR",
     qualifier: "From",
     isVisible: true,
