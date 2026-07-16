@@ -43,15 +43,37 @@ export const defaultServices: Service[] = [
 
 export const defaultPricing: PricingItem[] = [
   {
-    id: "pricing-guidance",
-    title: "Project investment",
+    id: "launch-page",
+    title: "Launch page",
     description:
-      "Every scope begins with the right questions. Add an approved starting figure in the owner dashboard when you are ready to publish pricing guidance.",
+      "A focused, high-conviction page for a new offer, campaign, or small business that needs a credible place to send people.",
+    startingPrice: 14900,
+    currency: "ZAR",
+    qualifier: "From",
+    isVisible: true,
+    sortOrder: 1,
+  },
+  {
+    id: "business-website",
+    title: "Business website",
+    description:
+      "A considered multi-page website for an established service business ready to turn more visits into useful enquiries.",
+    startingPrice: 29900,
+    currency: "ZAR",
+    qualifier: "From",
+    isVisible: true,
+    sortOrder: 2,
+  },
+  {
+    id: "custom-website",
+    title: "E-commerce and custom",
+    description:
+      "Stores, product catalogues, migrations, and larger digital work are scoped around the systems and content they actually need.",
     startingPrice: null,
     currency: "ZAR",
     qualifier: "Custom scope",
     isVisible: true,
-    sortOrder: 1,
+    sortOrder: 3,
   },
 ];
 

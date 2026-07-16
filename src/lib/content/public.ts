@@ -102,10 +102,12 @@ export const getPublicSiteData = cache(async (): Promise<PublicSiteData> => {
     return mapProject(projectRow, images.filter((image) => image.url).sort((left, right) => left.sortOrder - right.sortOrder));
   }));
 
+  const pricing = (pricingResult.data ?? []).map((row) => mapPricing(row as Record<string, unknown>));
+
   return {
     settings,
     services: (servicesResult.data ?? []).map((row) => mapService(row as Record<string, unknown>)),
-    pricing: (pricingResult.data ?? []).map((row) => mapPricing(row as Record<string, unknown>)),
+    pricing: pricing.length ? pricing : defaultPublicSiteData.pricing,
     projects,
   };
 });
