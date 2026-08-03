@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
 import { getPublicSiteData } from "@/lib/content/public";
+import { getSiteUrl } from "@/lib/site-url";
 
 export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://digitalvision.co.za";
+  const baseUrl = getSiteUrl();
   const { projects } = await getPublicSiteData();
   const routes = ["", "/work", "/services", "/pricing", "/about", "/contact", "/privacy"];
 

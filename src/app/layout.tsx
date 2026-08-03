@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
+import { getSiteUrl } from "@/lib/site-url";
 import "./globals.css";
 import "./site.css";
 import "./pages.css";
@@ -18,7 +19,7 @@ const displayFont = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://digitalvisions.co.za"),
+  metadataBase: getSiteUrl(),
   title: {
     default: "Digital Visions | Websites with a clearer point of view",
     template: "%s | Digital Visions",
