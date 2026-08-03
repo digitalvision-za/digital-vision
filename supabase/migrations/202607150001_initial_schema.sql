@@ -14,9 +14,9 @@ create table public.profiles (
 
 create table public.site_settings (
   id boolean primary key default true check (id),
-  company_name text not null default 'Digital Vision',
+  company_name text not null default 'Digital Visions',
   tagline text not null default 'Websites with a clearer point of view.',
-  intro text not null default 'Digital Vision designs, rebuilds, and cares for considered websites.',
+  intro text not null default 'Digital Visions designs, rebuilds, and cares for considered websites.',
   location_label text not null default 'Cape Town, serving South Africa',
   contact_email text,
   phone text,

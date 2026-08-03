@@ -16,7 +16,7 @@ export default async function AdminLoginPage({ searchParams }: LoginPageProps) {
       <div className="admin-login-card">
         <Brand />
         <p className="eyebrow">Owner workspace</p>
-        <h1 className="display">Digital Vision, behind the scenes.</h1>
+        <h1 className="display">Digital Visions, behind the scenes.</h1>
         <p>Sign in with the single owner account created in Supabase. Public signup is intentionally unavailable.</p>
         {search.configuration === "required" && <p className="admin-notice">Add the Supabase environment variables before signing in.</p>}
         {search.authorization === "required" && <p className="admin-notice">This account has not been assigned the owner role.</p>}

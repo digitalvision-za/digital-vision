@@ -23,7 +23,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       </Link>
       <div className="project-card-meta">
         <div>
-          <p>{project.services.join(" / ") || "Digital Vision project"}</p>
+          <p>{project.services.join(" / ") || "Digital Visions project"}</p>
           <h2><Link href={`/work/${project.slug}`}>{project.title}</Link></h2>
         </div>
         <Link aria-label={`Read ${project.title} case study`} className="icon-link" href={`/work/${project.slug}`}>

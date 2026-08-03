@@ -4,7 +4,7 @@ import { PublicShell } from "@/components/public-shell";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "How Digital Vision approaches website design and modernisation for South African businesses.",
+  description: "How Digital Visions approaches website design and modernisation for South African businesses.",
 };
 
 const process = [
@@ -17,8 +17,8 @@ export default function AboutPage() {
   return (
     <PublicShell>
       <section className="site-shell page-intro">
-        <div><p className="eyebrow">About Digital Vision</p><h1 className="display">A clearer way to show up online.</h1></div>
-        <p className="page-intro-copy">Digital Vision is an independent Cape Town web studio for South African businesses that want their digital presence to feel as considered as the work behind it.</p>
+        <div><p className="eyebrow">About Digital Visions</p><h1 className="display">A clearer way to show up online.</h1></div>
+        <p className="page-intro-copy">Digital Visions is an independent Cape Town web studio for South African businesses that want their digital presence to feel as considered as the work behind it.</p>
       </section>
       <section className="content-section content-section--paper">
         <div className="site-shell">

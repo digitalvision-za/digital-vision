@@ -1,13 +1,13 @@
 import type { LegalPage, PricingItem, PublicSiteData, Service, SiteSettings } from "./types";
 
 export const defaultSettings: SiteSettings = {
-  companyName: "Digital Vision",
+  companyName: "Digital Visions",
   tagline: "Websites with a clearer point of view.",
   contactEmail: null,
   phone: null,
   locationLabel: "Cape Town, serving South Africa",
   intro:
-    "Digital Vision designs, rebuilds, and cares for considered websites that make a good first impression feel inevitable.",
+    "Digital Visions designs, rebuilds, and cares for considered websites that make a good first impression feel inevitable.",
   analyticsEnabled: false,
 };
 
@@ -81,7 +81,7 @@ export const defaultPrivacyPage: LegalPage = {
   slug: "privacy",
   title: "Privacy",
   content:
-    "This page is a publishing placeholder. Before launch, add your reviewed privacy notice in the owner dashboard. It should explain contact-form data, any analytics, retention, and how people can contact Digital Vision about their information.",
+    "This page is a publishing placeholder. Before launch, add your reviewed privacy notice in the owner dashboard. It should explain contact-form data, any analytics, retention, and how people can contact Digital Visions about their information.",
   isPublished: false,
   updatedAt: null,
 };

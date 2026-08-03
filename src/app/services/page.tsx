@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Website design, modernisation, and ongoing support from Digital Vision.",
+  description: "Website design, modernisation, and ongoing support from Digital Visions.",
 };
 
 export default async function ServicesPage() {
@@ -20,7 +20,7 @@ export default async function ServicesPage() {
           <p className="eyebrow">Services</p>
           <h1 className="display">Make the website pull its weight.</h1>
         </div>
-        <p className="page-intro-copy">Digital Vision meets your business where it is, then builds a clearer path from first glance to next step.</p>
+        <p className="page-intro-copy">Digital Visions meets your business where it is, then builds a clearer path from first glance to next step.</p>
       </section>
       <section className="site-shell content-section content-section--paper">
         <div className="service-detail-list">

@@ -23,7 +23,7 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Starting-point pricing guidance for Digital Vision website projects.",
+  description: "Starting-point pricing guidance for Digital Visions website projects.",
 };
 
 export default async function PricingPage() {

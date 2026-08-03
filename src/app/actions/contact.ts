@@ -107,6 +107,6 @@ export async function submitInquiry(
 
   return {
     status: "success",
-    message: "Thanks. Your inquiry is safely in the Digital Vision inbox.",
+    message: "Thanks. Your inquiry is safely in the Digital Visions inbox.",
   };
 }

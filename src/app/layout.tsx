@@ -18,15 +18,15 @@ const displayFont = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://digitalvision.co.za"),
+  metadataBase: new URL("https://digitalvisions.co.za"),
   title: {
-    default: "Digital Vision | Websites with a clearer point of view",
-    template: "%s | Digital Vision",
+    default: "Digital Visions | Websites with a clearer point of view",
+    template: "%s | Digital Visions",
   },
   description:
-    "Digital Vision designs, rebuilds, and supports considered websites for South African businesses.",
+    "Digital Visions designs, rebuilds, and supports considered websites for South African businesses.",
   openGraph: {
-    title: "Digital Vision",
+    title: "Digital Visions",
     description:
       "Websites with a clearer point of view. Designed in Cape Town, for businesses across South Africa.",
     type: "website",

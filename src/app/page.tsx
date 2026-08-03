@@ -24,7 +24,7 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className="hero-art" aria-label="A sample Digital Vision web page layout" role="img">
+          <div className="hero-art" aria-label="A sample Digital Visions web page layout" role="img">
             <div className="art-browser">
               <div className="browser-bar"><span /><span /><span /><b>digitalvision.co.za</b></div>
               <div className="browser-page">

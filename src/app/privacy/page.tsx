@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "Digital Vision privacy information.",
+  description: "Digital Visions privacy information.",
 };
 
 export default async function PrivacyPage() {

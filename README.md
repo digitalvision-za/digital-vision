@@ -1,6 +1,6 @@
-# Digital Vision
+# Digital Visions
 
-Digital Vision is a full-stack portfolio and owner-managed content platform for a Cape Town web studio serving businesses across South Africa. It includes a fast public site, a private owner dashboard, Supabase-backed projects/media/settings, and a contact inbox.
+Digital Visions is a full-stack portfolio and owner-managed content platform for a Cape Town web studio serving businesses across South Africa. It includes a fast public site, a private owner dashboard, Supabase-backed projects/media/settings, and a contact inbox.
 
 The public site intentionally starts without invented client logos, outcomes, project images, prices, testimonials, address, phone number, or compliance claims. Add only approved information through the owner workspace.
 

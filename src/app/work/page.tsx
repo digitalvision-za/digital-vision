@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Work",
-  description: "Published Digital Vision website projects and case studies.",
+  description: "Published Digital Visions website projects and case studies.",
 };
 
 export default async function WorkPage() {
@@ -22,7 +22,7 @@ export default async function WorkPage() {
           <h1 className="display">Proof belongs in the work, not the pitch.</h1>
         </div>
         <p className="page-intro-copy">
-          Each case study is published by Digital Vision with permission and context. Explore the projects below as they are added to the studio archive.
+          Each case study is published by Digital Visions with permission and context. Explore the projects below as they are added to the studio archive.
         </p>
       </section>
       <section className="site-shell">
@@ -38,7 +38,7 @@ export default async function WorkPage() {
             <div className="empty-work-copy">
               <p className="eyebrow">Archive in progress</p>
               <h2>New case studies are being prepared with care.</h2>
-              <p>Digital Vision only shares work that has been approved for publication. In the meantime, tell us what a more useful website needs to do for your business.</p>
+              <p>Digital Visions only shares work that has been approved for publication. In the meantime, tell us what a more useful website needs to do for your business.</p>
               <a className="text-link" href="/contact">Start a conversation <ArrowUpRight size={17} aria-hidden="true" /></a>
             </div>
           </div>

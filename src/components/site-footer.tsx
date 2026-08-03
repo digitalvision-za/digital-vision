@@ -15,7 +15,7 @@ export function SiteFooter() {
         </Link>
       </div>
       <div className="site-shell footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Digital Vision</p>
+        <p>&copy; {new Date().getFullYear()} Digital Visions</p>
         <div>
           <Link href="/privacy">Privacy</Link>
           <Link href="/admin/login">Owner login</Link>
