@@ -47,22 +47,33 @@ export const defaultPricing: PricingItem[] = [
     title: "Launch page",
     description:
       "A focused, high-conviction page for a new offer, campaign, or small business that needs a credible place to send people.",
-    startingPrice: 7900,
+    startingPrice: 5000,
     currency: "ZAR",
     qualifier: "From",
     isVisible: true,
     sortOrder: 1,
   },
   {
-    id: "business-website",
-    title: "Business website",
+    id: "website-rebuild",
+    title: "Existing website rebuild",
     description:
-      "A considered multi-page website for a growing service business ready to turn more visits into useful enquiries.",
-    startingPrice: 16900,
+      "A focused redesign for a business with an existing website that needs a clearer, more credible, mobile-ready version.",
+    startingPrice: 9500,
     currency: "ZAR",
     qualifier: "From",
     isVisible: true,
     sortOrder: 2,
+  },
+  {
+    id: "business-website",
+    title: "Business website",
+    description:
+      "A considered multi-page website for a growing service business ready to turn more visits into useful enquiries.",
+    startingPrice: 14500,
+    currency: "ZAR",
+    qualifier: "From",
+    isVisible: true,
+    sortOrder: 3,
   },
   {
     id: "custom-website",
@@ -73,7 +84,7 @@ export const defaultPricing: PricingItem[] = [
     currency: "ZAR",
     qualifier: "Custom scope",
     isVisible: true,
-    sortOrder: 3,
+    sortOrder: 4,
   },
 ];
 

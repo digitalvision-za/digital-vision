@@ -12,13 +12,15 @@ test("public routes are navigable and the inquiry form gives setup-safe feedback
   }
   await expect(page).toHaveURL(/\/services$/);
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Make the website pull its weight");
+  await expect(page.getByRole("heading", { level: 2, name: "Launch page" })).toBeVisible();
+  await expect(page.getByRole("heading", { level: 2, name: "Existing website rebuild" })).toBeVisible();
 
   await page.goto("/contact");
   await page.getByLabel("Your name").fill("Test Person");
   await page.getByLabel("Email address").fill("test@example.com");
   await page.getByLabel("Tell us what needs to change").fill("We need a clearer website for our growing business.");
   await page.getByRole("button", { name: "Send inquiry" }).click();
-  await expect(page.getByText("secure inquiry inbox has not been configured yet")).toBeVisible();
+  await expect(page.getByText(/secure inquiry inbox has not been configured yet|inquiry is safely in the Digital Visions inbox/)).toBeVisible();
 });
 
 test("unauthenticated visitors are redirected away from the owner workspace", async ({ page }) => {

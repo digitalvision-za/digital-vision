@@ -3,21 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { PublicShell } from "@/components/public-shell";
 import { getPublicSiteData } from "@/lib/content/public";
 import { formatStartingPrice } from "@/lib/format";
-
-const packageDetails = {
-  "launch-page": {
-    timing: "7-10 business days",
-    includes: ["One tailored page", "Mobile-first design and build", "Enquiry form and WhatsApp link", "Basic on-page SEO", "One revision round"],
-  },
-  "business-website": {
-    timing: "3-4 weeks",
-    includes: ["Up to 6 core pages", "Custom design system", "Enquiry forms and key integrations", "Basic SEO and analytics setup", "Two revision rounds"],
-  },
-  "custom-website": {
-    timing: "Scoped with you",
-    includes: ["E-commerce and product catalogues", "Content migration or product entry", "Payment and third-party integrations", "A delivery plan for the real scope", "A tailored investment proposal"],
-  },
-} as const;
+import { getServicePackageDetails } from "@/lib/service-packages";
 
 export const dynamic = "force-dynamic";
 
@@ -33,12 +19,12 @@ export default async function PricingPage() {
     <PublicShell>
       <section className="site-shell page-intro">
         <div><p className="eyebrow">Investment</p><h1 className="display">Clarity from the first conversation.</h1></div>
-        <p className="page-intro-copy">Two clear starting points for businesses that need a site to do useful work, plus a custom route for e-commerce and more involved builds. Every project begins with a quick scope check before work starts.</p>
+        <p className="page-intro-copy">Three clear starting points for businesses that need a site to do useful work, plus a custom route for e-commerce and more involved builds. Every project begins with a quick scope check before work starts.</p>
       </section>
       <section className="site-shell content-section">
         <div className="pricing-grid">
           {pricing.map((item) => {
-            const details = packageDetails[item.id as keyof typeof packageDetails];
+            const details = getServicePackageDetails(item.id);
 
             return (
             <article className="pricing-card" key={item.id}>
