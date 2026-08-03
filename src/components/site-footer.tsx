@@ -18,7 +18,6 @@ export function SiteFooter() {
         <p>&copy; {new Date().getFullYear()} Digital Visions</p>
         <div>
           <Link href="/privacy">Privacy</Link>
-          <Link href="/admin/login">Owner login</Link>
         </div>
       </div>
     </footer>
